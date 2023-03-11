@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'contornos';
+    src: url(idroid.otf);
+}
+body{
+    background-color:#ccf0ae ;
+    width: auto;
+}
+body>main{
+    min-width: 146px;
+    max-width:812px;
+    margin: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right:10px;
+}
+header>p{
+        font-size: 70%;
+}
+nav{
+    text-align: left;
+    color: white;   
+}
+nav>a{
+    color: white; 
+    font-size: 120%;
+    margin-right: 3%;
+    text-decoration: none;
+}
+nav>a:hover{
+    text-transform: uppercase;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main h1{
+    font-family:'contornos' ;
+    background-image: linear-gradient(to left, rgb(208, 236, 208), rgb(112, 245, 112));
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+header>h1{
+    color: white;
+}
+main h2{
+    font-family: 'contornos';
+    background-image: linear-gradient(to left, rgb(208, 236, 208), rgb(112, 245, 112));
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(156, 241, 156),rgb(19, 110, 19));
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+main{
+    margin:auto;
+}
+article> img{
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;   
+}
+div{
+    background-color: rgb(112, 241, 112);
+    border-radius: 10px 10px 0px 0px;
+    padding-left: -10px;
+    padding-right: -10px;
+    margin:21px 1px -21px 1px;
+}
+div>iframe{
+    display: block;
+    margin: auto;
+    max-width: 812px;
+    min-width: 146px;
+}
